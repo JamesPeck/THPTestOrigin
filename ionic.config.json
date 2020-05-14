@@ -1,0 +1,7 @@
+{
+  "name": "TestTHP",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
