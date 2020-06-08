@@ -17,9 +17,6 @@ export class HomePage {
       var headers = new Headers();
       var url = 'https://mobilemembers.tufts-health.com/siteminderagent/forms/logout.html';
 
-      headers.append('Content-Type', 'application/json');
-      headers.append('SMSESSION', 'test');
-
       let options: RequestOptions = new RequestOptions({ headers: headers });
       this.http.get(url, options)
           .subscribe(async data => {
